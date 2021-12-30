@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather Application</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <form name="myForm" class="form">
+            <input type="text" class="search-text">
+            <input type="button" class="search-btn"><i class="material-icons">search</i>
+        </form>
+
+        <input type="button" value="°C/°F" class="temp-btn">
+
+        <div class="content">
+            <p class="city"></p>
+            <p class="temp"></p>
+            <p class="other-details"></p>
+            <p class="time"></p>
+
+            <p class="err"></p>
+        </div>
+    </div>
+    <!-- &#176 -->
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
